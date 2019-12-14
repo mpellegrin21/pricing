@@ -1,1 +1,9 @@
-Hier entsteht mein SCSS Sheet
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: hsl(234, 14%, 74%);
+    display: flex;
+    justify-content: center;
+}

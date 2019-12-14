@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    
+
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -14,39 +18,67 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
 
-  Our Pricing
-  Annually
-  Monthly
+  <h1 class="title">Our Pricing</h1>
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+  <p class="toggle__anno">Annually</p>
+  <p class="toggle__month"></p>Monthly</p>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+<div class="box2">
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
+  <h2 class="box__title">Basic</h2>
+    <span class="dollar">$</span>
+    <span class="price__month">19.99</span>
+    <span class="dollar">$</span>
+    <span class="price__anno">199.99</span>
+
+  <ul>
+    <li class="offer__basic">500 GB Storage</li>
+    <li class="offer__basic">2 Users Allowed</li>
+    <li class="offer__basic">Send up to 3 GB</li>
+  </ul>
+
+  <button>Learn More</button>
+</div>
+
+<div class="box1">
+  <h2 class="box__title">Professional</h2>
+    <span class="dollar">$</span>
+    <span class="price__month">24.99</span>
+    <span class="dollar">$</span>
+    <span class="price__anno">249.99</span>
+
+  <ul>
+    <li class="offer__pro">1 TB Storage</li>
+    <li class="offer__pro">5 Users Allowed</li>
+    <li class="offer__pro">Send up to 10 GB</li>
+  </ul>
   
-  <div class="attribution">
+  <button>Learn More</button>
+</div>
+
+<div class="box2">
+  <h2 class="box__title">Master</h2>
+    <span class="dollar">$</span>
+    <span class="price__month">39.99</span>
+    <span class="dollar">$</span>
+    <span class="price__anno">399.99</span>
+
+  <ul>
+    <li class="offer__master">2 TB Storage</li>
+    <li class="offer__master">10 Users Allowed</li>
+    <li class="offer__master">Send up to 20 GB</li>
+  </ul>
+
+  <button>Learn More</button>
+</div>
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="">Massimo Pellegrin</a>.
+  </div> -->
+
 </body>
 </html>
